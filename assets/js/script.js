@@ -50,6 +50,7 @@ $('#enviar').on('click',function(){
   
 
    if(msg == '' || msg == null || msg.length<4 || msg.length>120 || nome == undefined){
+      
       valor = valor +1
    }
 

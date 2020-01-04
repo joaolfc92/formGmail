@@ -212,13 +212,13 @@ body{
 
 select { 
     background-color: white;     
-    width: 245px; /* Tamanho do select, maior que o tamanho da div "div-select" */      
-    height:32px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */  
-    font-family:Arial, Helvetica, sans-serif; /* Fonte do Select */  
-    font-size:13px; /* Tamanho da Fonte */ 
-    color:#a6a9ae; /* Cor da Fonte */     
-    text-indent: 0.01px; /* Remove seta padrão do FireFox */      
-    text-overflow: "";  /* Remove seta padrão do FireFox */            
+    width: 245px;     
+    height:32px;  
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:13px; 
+    color:#a6a9ae;  
+    text-indent: 0.01px;     
+    text-overflow: "";          
     padding-left: 8px;
     border-radius: 3px;
     margin-left: 20px;
@@ -232,5 +232,12 @@ select {
     border-radius: 3px;
 
     
+}
+
+::placeholder{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #a6a9ae;
 }
 
