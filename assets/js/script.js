@@ -43,7 +43,7 @@ $('#enviar').on('click',function(){
 
   
 
-   if(tel == '' || tel == null || tel.length<4 || tel == undefined){
+   if(tel == '' || tel == null || tel.length<4 || tel == undefined || tel.length>15){
      valor = valor +1
    }
 
@@ -61,9 +61,14 @@ $('#enviar').on('click',function(){
       
   }
 
- 
-     
 })  
+
+
+$(document).ready(function($){
+   $('#placeholder_input-phone').mask('(00)00000-0000')
+})
+
+
 
 
 
